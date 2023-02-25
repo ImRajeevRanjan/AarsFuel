@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_scrool_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Page">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+
+
+
+        <HorizontalScrollView
+            android:id="@+id/horizontal_scroll_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ch No."
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Type"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Litres"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Challan Dip"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Caught Dip"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Base"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Temp"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Density"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="01"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioGroup01"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioPetrol_01"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="P"
+                            android:textStyle="bold"
+                            android:textColor="#2a8243"
+                            android:checked="false"
+                            android:textSize="20dp" />
+
+                        <RadioButton
+                            android:id="@+id/radioDiesel_01"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="D"
+                            android:textStyle="bold"
+                            android:textColor="#183c69"
+                            android:checked="false"
+                            android:textSize="20dp" />
+                    </RadioGroup>
+
+
+
+
+
+
+                    <EditText
+                        android:id="@+id/litre01"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Challan01"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Caugth01"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Base01"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Temp01"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/Density01"
+                        android:text="00.0"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="02"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioGroup02"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioPetrol_02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="P"
+                            android:textStyle="bold"
+                            android:textColor="#2a8243"
+                            android:checked="false"
+                            android:textSize="20dp" />
+
+                        <RadioButton
+                            android:id="@+id/radioDiesel_02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="D"
+                            android:textStyle="bold"
+                            android:textColor="#183c69"
+                            android:checked="false"
+                            android:textSize="20dp" />
+                    </RadioGroup>
+
+                    <EditText
+                        android:id="@+id/litre02"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Challan02"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Caugth02"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Base02"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Temp02"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/Density02"
+                        android:text="00.0"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="03"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioGroup03"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioPetrol_03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="P"
+                            android:textStyle="bold"
+                            android:textColor="#2a8243"
+                            android:checked="false"
+                            android:textSize="20dp" />
+
+                        <RadioButton
+                            android:id="@+id/radioDiesel_03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="D"
+                            android:textStyle="bold"
+                            android:textColor="#183c69"
+                            android:checked="false"
+                            android:textSize="20dp" />
+                    </RadioGroup>
+
+                    <EditText
+                        android:id="@+id/litre03"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Challan03"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Caugth03"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Base03"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Temp03"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/Density03"
+                        android:text="00.0"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="04"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioGroup04"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioPetrol_04"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="P"
+                            android:textStyle="bold"
+                            android:textColor="#2a8243"
+                            android:checked="false"
+                            android:textSize="20dp" />
+
+                        <RadioButton
+                            android:id="@+id/radioDiesel_04"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="D"
+                            android:textStyle="bold"
+                            android:textColor="#183c69"
+                            android:checked="false"
+                            android:textSize="20dp" />
+                    </RadioGroup>
+
+                    <EditText
+                        android:id="@+id/litre04"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Challan04"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Caugth04"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Base04"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/Temp04"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/Density04"
+                        android:text="00.0"
+                        android:textSize="20dp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:id="@+id/short_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <TextView
+                        android:text="Petrol Short"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/petrol_short_text"
+                        android:hint="..."
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:paddingLeft="6dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:text="Diesel Short"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/diesel_short_text"
+                        android:hint="..."
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:paddingLeft="6dp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/calculate_table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calculate"
+                android:textStyle="bold"
+                android:backgroundTint="#ff0000"
+                android:layout_gravity="center_horizontal"
+
+                />
+        </LinearLayout>
+
+
+        <!--    Petrol wala column-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#33cc33"
+                android:text="PETROL"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Starting Dip:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:textStyle="bold"
+                android:id="@+id/starting_dip_petrol"
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Closing Dip:"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:textStyle="bold"
+                    android:id="@+id/closing_dip_petrol"
+                    />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+            <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Meter"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Closing"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Starting"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sale"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+
+                </TableRow>
+
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="01"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/closing_petrol_01"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/starting_petrol_01"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="00.0"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center"
+                        android:id="@+id/sale_petrol_01"/>
+
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="02"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/closing_petrol_02"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/starting_petrol_02"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="00.0"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/sale_petrol_02"/>
+
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="03"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center"
+                        android:id="@+id/closing_petrol_03"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/starting_petrol_03"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="00.0"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/sale_petrol_03"/>
+
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="04"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/closing_petrol_04"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/starting_petrol_04"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="00.0"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/sale_petrol_04"/>
+
+
+                </TableRow>
+
+
+
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UnderGround Shortage:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:id="@+id/undergroung_petrol"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00.0"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:id="@+id/undergroung_petrol_do"
+                />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+<!--        diesel wala column -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#002080"
+                android:text="DIESEL"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Starting Dip:"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:textStyle="bold"
+                    android:id="@+id/starting_dip_diesel"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Closing Dip:"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:textStyle="bold"
+                    android:id="@+id/closing_dip_diesel"
+                    />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Meter"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Closing"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Starting"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Sale"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+
+
+                </TableRow>
+
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="01"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/closing_diesel_01"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/starting_diesel_01"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="00.0"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/sale_diesel_01"/>
+
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="02"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/closing_diesel_02"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center"
+                        android:id="@+id/starting_diesel_02"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="00.0"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/sale_diesel_02"/>
+
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="03"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/closing_diesel_03"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/starting_diesel_03"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="00.0"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/sale_diesel_03"/>
+
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="04"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"/>
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/closing_diesel_04"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/starting_diesel_04"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="00.0"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:id="@+id/sale_diesel_04"/>
+
+
+                </TableRow>
+
+
+
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UnderGround Shortage:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:id="@+id/undergroung_diesel"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="00.0"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:id="@+id/undergroung_diesel_do"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+<!--        </ScrollView>-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:background="#F0F0F0"
+            android:hint="Your Note Here."
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>
